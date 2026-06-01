@@ -1,0 +1,92 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "enriched",
+  "authors": {
+    "Boyla Mainsah": {},
+    "Chance Fleeting": {
+      "orcid": "0000-0002-6271-4952",
+      "affiliations": [
+        {
+          "name": "Duke University"
+        }
+      ]
+    },
+    "Thomas Balmat": {},
+    "Eric Sellers": {},
+    "Leslie Collins": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.13026/0byy-ry86",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000157",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000157",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "title": "BigP3BCI Study B — 6x6 checkerboard, multi-session (19 healthy subjects)",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "1.3 GB (545 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".json",
+    ".tsv",
+    ".yaml",
+    ".yml"
+  ],
+  "description": "BigP3BCI Study B is a multi-session EEG dataset from 19 ALS patients performing a P300-based brain-computer interface speller task using a 6x6 checkerboard visual stimulus paradigm. The dataset comprises 8 sessions per subject with 16-channel EEG recordings sampled at 256 Hz, annotated with HED 8.4.0 tags for target and non-target visual events. This derivative dataset is part of the larger BigP3BCI collection.",
+  "methods_description": "EEG data were acquired using a g.USBamp amplifier (g.tec) with 16 channels in standard 10-20 montage at 256 Hz sampling rate. The experimental paradigm employed a 6x6 checkerboard visual stimulus presentation with target and non-target event classification.",
+  "keywords": [
+    {
+      "term": "P300"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "visual evoked potential"
+    },
+    {
+      "term": "speller"
+    },
+    {
+      "term": "visual"
+    },
+    {
+      "term": "amyotrophic lateral sclerosis"
+    },
+    {
+      "term": "6x6 checkerboard"
+    }
+  ],
+  "source_hash": "1c1fdaa86d2563dd3cad2feebb23bab39cf3683e65f46ecad88b39231c9a8d29"
+}
