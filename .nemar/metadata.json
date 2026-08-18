@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "BigP3BCI Study B — 6x6 checkerboard, multi-session (19 healthy subjects)",
-  "description": "BigP3BCI Study B is a derivative EEG dataset containing P300 brain-computer interface recordings from 19 patients with ALS across 8 sessions each, using a 6x6 checkerboard visual speller paradigm. The dataset comprises 16-channel EEG data sampled at 256 Hz, annotated with target and non-target event labels using HED 8.4.0 schema. Study B is derived from the larger BigP3BCI initiative hosted on PhysioNet.",
-  "methods_description": "EEG data were acquired using a g.USBamp amplifier (g.tec) with 16 channels in standard 10-20 montage at 256 Hz sampling rate. The experimental paradigm employed a 6x6 checkerboard visual speller with target and non-target stimulus presentations. Data were processed using the MOABB (Mother of All BCI Benchmarks) framework version 1.5.0 for P300 ERP feature extraction. Cross-validation employed a calibration-then-test method with within-subject evaluation.",
+  "description": "BigP3BCI Study B is a derivative EEG dataset containing P300 brain-computer interface recordings from 19 patients with amyotrophic lateral sclerosis (ALS) across 8 sessions each, using a 6x6 checkerboard visual speller paradigm. The dataset comprises 16-channel EEG data sampled at 256 Hz, annotated with target and non-target event classifications using HED 8.4.0 schema. This dataset is part of the larger BigP3BCI collection, the largest public P300 BCI dataset with recordings from approximately 267 subjects across multiple studies.",
+  "methods_description": "This derivative dataset was processed from the original BigP3BCI Study B recordings (DOI: 10.13026/0byy-ry86) using the MOABB (Mother of All BCI Benchmarks) framework version 1.5.0. Processing included P300 event-related potential (ERP) detection and feature extraction. The original EEG data were acquired using a g.USBamp amplifier (g.tec) with 16 channels in standard 10-20 montage at 256 Hz sampling rate during a 6x6 checkerboard visual speller paradigm with target and non-target stimulus presentations. Cross-validation employed a calibration-then-test method with within-subject evaluation.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -24,32 +24,7 @@
     {
       "term": "Brain-Computer Interfaces",
       "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
       "value_uri": "https://id.nlm.nih.gov/mesh/D062207"
-    },
-    {
-      "term": "Event-Related Potentials, P300",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "https://id.nlm.nih.gov/mesh/D018913"
-    },
-    {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "https://id.nlm.nih.gov/mesh/D004569"
-    },
-    {
-      "term": "Amyotrophic Lateral Sclerosis",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "https://id.nlm.nih.gov/mesh/D000274"
-    },
-    {
-      "term": "Spellers",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "https://id.nlm.nih.gov/mesh/D013048"
     },
     {
       "term": "EEG"
@@ -58,13 +33,22 @@
       "term": "visual perception"
     },
     {
+      "term": "Event-Related Potentials, P300",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "https://id.nlm.nih.gov/mesh/D018913"
+    },
+    {
       "term": "speller paradigm"
     },
     {
       "term": "checkerboard"
     },
     {
-      "term": "character speller"
+      "term": "amyotrophic lateral sclerosis"
+    },
+    {
+      "term": "ALS"
     }
   ],
   "related_identifiers": [
@@ -111,5 +95,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "16b2934c7eee0ce4d2a4f1c89e74311a78f3b6f5012f2d5495b9341fe69ad0b2"
+  "source_hash": "82ed6fed117b006232b630cb926b689c131aefdb64cc3ca5573604377e84a44d"
 }
