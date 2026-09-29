@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "BigP3BCI Study B — 6x6 checkerboard, multi-session (19 healthy subjects)",
-  "description": "BigP3BCI Study B is a derivative EEG dataset containing P300 brain-computer interface recordings from 19 patients with amyotrophic lateral sclerosis (ALS) across 8 sessions each, using a 6x6 checkerboard visual speller paradigm. The dataset comprises 16-channel EEG data sampled at 256 Hz, annotated with target and non-target event classifications using HED 8.4.0 schema. This dataset is part of the larger BigP3BCI collection, the largest public P300 BCI dataset with recordings from approximately 267 subjects across multiple studies.",
-  "methods_description": "This derivative dataset was processed from the original BigP3BCI Study B recordings (DOI: 10.13026/0byy-ry86) using the MOABB (Mother of All BCI Benchmarks) framework version 1.5.0. Processing included P300 event-related potential (ERP) detection and feature extraction. The original EEG data were acquired using a g.USBamp amplifier (g.tec) with 16 channels in standard 10-20 montage at 256 Hz sampling rate during a 6x6 checkerboard visual speller paradigm with target and non-target stimulus presentations. Cross-validation employed a calibration-then-test method with within-subject evaluation.",
+  "description": "This dataset is a BIDS-formatted derivative of Study B from the bigP3BCI collection, an open P300-based brain-computer interface speller resource. It contains 16-channel EEG recorded at 256 Hz from 19 healthy participants, each over 8 sessions, using a 6x6 checkerboard character grid. Target and non-target flash events are annotated with HED tags, and the data support benchmarking of P300 detection and speller algorithms.",
+  "methods_description": "EEG was recorded with a g.USBamp (g.tec) amplifier using 16 channels in a standard 10-20 montage at 256 Hz, with 60 Hz line frequency. Participants performed a visual P300 speller task with online feedback in a laboratory setting. Calibration data were followed by test sessions. Events were coded as Target or NonTarget, with an epoch interval of 0 to 1.0 s.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -22,33 +22,23 @@
   },
   "keywords": [
     {
-      "term": "Brain-Computer Interfaces",
-      "subject_scheme": "MeSH",
-      "value_uri": "https://id.nlm.nih.gov/mesh/D062207"
-    },
-    {
       "term": "EEG"
     },
     {
-      "term": "visual perception"
+      "term": "P300"
     },
     {
-      "term": "Event-Related Potentials, P300",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "https://id.nlm.nih.gov/mesh/D018913"
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH"
     },
     {
-      "term": "speller paradigm"
+      "term": "speller"
     },
     {
-      "term": "checkerboard"
+      "term": "event-related potentials"
     },
     {
-      "term": "amyotrophic lateral sclerosis"
-    },
-    {
-      "term": "ALS"
+      "term": "healthy participants"
     }
   ],
   "related_identifiers": [
@@ -65,12 +55,12 @@
     {
       "identifier": "10.21105/joss.01896",
       "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
+      "relation_type": "References"
     },
     {
       "identifier": "10.1038/s41597-019-0104-8",
       "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
+      "relation_type": "References"
     },
     {
       "identifier": "https://nemar.org/dataset/nm000157",
@@ -84,7 +74,7 @@
     "eeg"
   ],
   "sizes": [
-    "4.6 GB (1089 files)"
+    "4.27 GB (1089 files)"
   ],
   "formats": [
     ".bdf",
